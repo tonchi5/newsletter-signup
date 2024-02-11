@@ -131,15 +131,15 @@ span{
 
 
 
-@media(min-width: 1440px){
+@media(min-width: 1400px){
     body{
         background-color: var(--DARKER);
     }
 
     .container{
         flex-direction: row-reverse;
-        width: 60%;
-        height: 80%;
+        width: 50%;
+        height: 75%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -151,13 +151,14 @@ span{
 
     .img-container{
         width: 50%;
-        height: 28rem;
+        height: 100%;
         border-radius: 10px;
         background-image: url('images/illustration-sign-up-desktop.svg');
     }
 
     main{
-        margin: 2rem 2rem 2rem 0;
+        padding: 2rem;
+        width: 60%;
     }
 
     .message{
@@ -165,12 +166,12 @@ span{
         display: flex;
         flex-direction: column;
         width: 30%;
-        height: 60%;
+        height: 65%;
         display: none;
     }
 
     .txt{
-        margin-top: 0;
+        margin-top: 2rem;
     }
 }
 
