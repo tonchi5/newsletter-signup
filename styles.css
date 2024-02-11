@@ -15,6 +15,7 @@
 
 .container{
     width: 375px;
+    height: 100vh;
     font-family: var(--FF);
     display: flex;
     flex-direction: column;
@@ -131,15 +132,15 @@ span{
 
 
 
-@media(min-width: 1400px){
+@media(min-width: 1440px){
     body{
         background-color: var(--DARKER);
     }
 
     .container{
         flex-direction: row-reverse;
-        width: 50%;
-        height: 75%;
+        width: 70%;
+        height: 65%;
         position: absolute;
         top: 50%;
         left: 50%;
